@@ -1,0 +1,108 @@
+
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --lemon: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+
+header{
+    max-width: 80%;
+    margin: auto;
+}
+
+header h1{
+    color: var(--cyan);
+    margin-bottom: 10px;
+}
+
+header h2{
+    color: var(--lemon);
+    margin-bottom: 10px;
+}
+
+header p{
+    width: 90%;
+    color: var(--grayish-blue);
+    font-size: 1.2rem;
+}
+
+#features{
+    max-width: 100%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#features article{
+    padding: 3.5rem 7.9rem;
+    color: var(--light-gray);
+    height: 360px;
+}
+
+
+#features article h1{
+    font-size: 2rem;
+}
+
+#features article h4{
+    font-weight: 100;
+    color: var(--light-gray);
+}
+
+#features article span{
+    font-size: 3rem;
+}
+
+#features article a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 1.5rem 0;
+    padding: 1rem 2rem;
+    background-color: var(--lemon);
+    color: var(--light-gray);
+    text-align: center;
+    font-weight: 700;
+    width: 100%;
+}
+
+#features article a:hover{
+    opacity: 0.9;
+}
+
+#features .price{
+    background-color: var(--cyan);
+}
+
+#features .price p{
+    font-size: 1.5rem;
+}
+
+#features .about{
+    background-color: var(--cyan);
+    opacity: 0.8;
+}
+
+#features .about p{
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    width: 75%;
+}
+
+/* footer */
+footer .attribution { font-size: 11px; text-align: center; }
+footer .attribution a { color: hsl(228, 45%, 44%); }

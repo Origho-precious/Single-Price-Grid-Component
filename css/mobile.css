@@ -1,0 +1,88 @@
+
+header{
+    max-width: 80%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 1.6rem;
+}
+
+header h2{
+    font-size: 1.2rem;
+}
+
+header p{
+    width: 95%;
+    font-size: 1.1rem;
+}
+
+#features{
+    max-width: 100%;
+    margin: 3rem auto;
+    display: block;
+}
+
+#features article{
+    padding: 2.5rem 4rem;
+    color: var(--light-gray);
+    height: 300px;
+}
+
+#features article h1{
+    font-size: 1.5rem;
+}
+
+#features article h4{
+    font-weight: 100;
+    color: var(--light-gray);
+    margin-bottom: 1rem;
+}
+
+#features article span{
+    font-size: 2.5rem;
+}
+
+#features article a{
+    display: block;
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+#features article a:hover{
+    opacity: 0.9;
+}
+
+#features .price{
+    background-color: var(--cyan);
+}
+
+#features .price p{
+    font-size: 1.1rem;
+}
+
+#features .about{
+    background-color: var(--cyan);
+    opacity: 0.8;
+}
+
+#features .about p{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    width: 80%;
+}
+
+@media (max-width: 500px){
+    
+    #features article{
+        padding: 2.5rem;
+        color: var(--light-gray);
+        height: 60%;
+    }
+    
+    #features .about p{
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+        width: 100%;
+    }
+}
